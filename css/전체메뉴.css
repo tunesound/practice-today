@@ -23,8 +23,7 @@
 .nav > div ol li a:hover {text-decoration: underline;}
 
 /* 타이틀 */
-.tit {position: relative; text-align: center;}
-.tit h2 {font-size: 40px; color: #2c94c4; letter-spacing: 2px; padding: 5px 0; font-family: 'Nanum Brush Script', cursive;}
-.tit .btn {display: block; width: 60px; height: 60px; background: url(../img/icon.png) no-repeat 0 -600px;
-    position: absolute; right: 0; top: 5px;;}
-    
+.tit {position: relative; text-align: center}
+.tit h2 {font-size: 40px; color:#2c94c4; letter-spacing: 2px; padding: 5px 0; font-family: 'Nanum Brush Script', cursive;}
+.tit .btn {display: block; width: 60px; height: 60px; background: url(../img/icon.png) no-repeat 0 -600px; 
+    position: absolute; right: 0; top: 5px;}
