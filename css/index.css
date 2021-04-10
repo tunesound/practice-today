@@ -1,9 +1,35 @@
 @charset "utf-8";
 
-#wrap {width: 100%;}
-#header {width: 100%; height: 325px; background: #111;}
-#contents {width: 100%; height: 800px; background: #222;}
-#footer {width: 100%; height: 200px; background: #333;}
+/* Layout */
+#wrap {}
+#header {width: 100%; height: 325px; background: url(../img/header_bg.jpg) center top repeat-x;}
+#contents {background: #444; width: 100%; height: 800px;}
+#footer {background: #555; width: 200px; height: 200px;}
 
-.container {margin: 0 auto; width: 990px; height: inherit; background: rgba(255,255,255,0.3);}
+/* Container */
+.container {width: 990px; height: inherit; margin: 0 auto;}
 
+/* header */
+.header {}
+.header .header-menu {text-align: right; }
+.header .header-menu a {color: #fff; padding: 10px 0px 10px 13px; display: inline-block;}
+.header .header-menu a:hover {color: #666;}
+
+/* hedaer-tit */
+.header .header-tit {text-align: center;}
+.header .header-tit h2 {color: #fff; font-size: 30px; background: #4aa8d4; display: inline-block;
+    padding: 5px 20px 6px 20px; margin-top : 40px; font-weight: normal; text-transform: uppercase;}
+.header .header-tit a {color: #fff; font-size: 18px; background: #2698cb; display: inline-block;
+    padding: 5px 20px 6px 20px; margin-top: -5px;}
+
+/* header-icon */
+.header .header-icon {text-align: center; margin-top: 30px;}
+.header .header-icon a {background: url(../img/icon.png); width: 60px; height: 60px; display: inline-block;}
+.header .header-icon a.icon1 {background-position: 0px 0px;}
+.header .header-icon a.icon2 {background-position: 0px -60px;}
+.header .header-icon a.icon3 {background-position: 0px -120px;}
+.header .header-icon a.icon4 {background-position: 0px -180px;}
+.header .header-icon a:hover.icon1 {background-position: -60px 0px;}
+.header .header-icon a:hover.icon2 {background-position: -60px -60px;}
+.header .header-icon a:hover.icon3 {background-position: -60px -120px;}
+.header .header-icon a:hover.icon4 {background-position: -60px -180px;}
