@@ -81,3 +81,22 @@
 .cont .col4 {border-right: 1px solid #c8c8c8;}
 .cont .col5 {border-right: 1px solid #c8c8c8;}
 .cont .col6 {margin-right: 0; padding-right: 0;}
+
+.cont .column .ico_img {display: block; width: 60px; height: 60px; 
+    background: url(../img/icon.png); position: absolute; left: 0px; top: 0px;}
+.cont .column .ico_tit {padding-left: 70px; font-size: 16px; color: #2698cb;}
+.cont .column .ico_desc {padding-left: 70px; border-bottom: 1px solid #d0d0d0; 
+    padding-bottom: 15px; margin-bottom: 15px;}
+
+.cont .col1 .ico_img {background-position: 0px -240px;}
+.cont .col2 .ico_img {background-position: 0px -300px;}
+.cont .col3 .ico_img {background-position: 0px -360px;}
+.cont .col4 .ico_img {background-position: 0px -420px;}
+.cont .col5 .ico_img {background-position: 0px -480px;}
+.cont .col6 .ico_img {background-position: 0px -540px;}
+.cont .col1 .ico_img:hover {background-position: -60px -240px;}
+.cont .col2 .ico_img:hover {background-position: -60px -300px;}
+.cont .col3 .ico_img:hover {background-position: -60px -360px;}
+.cont .col4 .ico_img:hover {background-position: -60px -420px;}
+.cont .col5 .ico_img:hover {background-position: -60px -480px;}
+.cont .col6 .ico_img:hover {background-position: -60px -540px;}
